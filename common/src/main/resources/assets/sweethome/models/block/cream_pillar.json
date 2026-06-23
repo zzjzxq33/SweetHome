@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "particle": "sweethome:block/cream_pillar",
+    "side": "sweethome:block/cream_pillar",
+    "end": "sweethome:block/cream"
+  }
+}
