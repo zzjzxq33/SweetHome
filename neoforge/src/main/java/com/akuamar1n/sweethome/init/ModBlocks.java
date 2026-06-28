@@ -2,7 +2,9 @@ package com.akuamar1n.sweethome.init;
 
 import com.akuamar1n.sweethome.Constants;
 import com.akuamar1n.sweethome.block.BlockCream;
+import com.akuamar1n.sweethome.block.BlockFruits;
 import com.akuamar1n.sweethome.block.CreamType;
+import com.akuamar1n.sweethome.block.FruitsType;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.block.Block;
@@ -17,4 +19,7 @@ public class ModBlocks {
     public static final DeferredHolder<Block, Block> CREAM_COCOA_PILLAR = REGISTRY.register("cream_cocoa_pillar", key -> new BlockCream(ResourceKey.create(Registries.BLOCK, key), CreamType.CREAM_COCOA_PILLAR));
     public static final DeferredHolder<Block, Block> CREAM_PATTERN = REGISTRY.register("cream_pattern", key -> new BlockCream(ResourceKey.create(Registries.BLOCK, key), CreamType.CREAM_PATTERN));
     public static final DeferredHolder<Block, Block> CREAM_COCOA_PATTERN = REGISTRY.register("cream_cocoa_pattern", key -> new BlockCream(ResourceKey.create(Registries.BLOCK, key), CreamType.CREAM_COCOA_PATTERN));
+    public static final DeferredHolder<Block, Block> CREAM_APPLEJAM = REGISTRY.register("cream_applejam", key -> new BlockFruits(ResourceKey.create(Registries.BLOCK, key), FruitsType.CREAM_APPLEJAM));
+    public static final DeferredHolder<Block, Block> CREAM_STRAW = REGISTRY.register("cream_straw", key -> new BlockFruits(ResourceKey.create(Registries.BLOCK, key), FruitsType.CREAM_STRAW));
+    public static final DeferredHolder<Block, Block> CREAM_BERRY = REGISTRY.register("cream_berry", key -> new BlockFruits(ResourceKey.create(Registries.BLOCK, key), FruitsType.CREAM_BERRY));
 }

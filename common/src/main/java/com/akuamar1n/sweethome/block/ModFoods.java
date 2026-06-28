@@ -4,5 +4,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class ModFoods {
     public static final FoodProperties CREAM = new FoodProperties.Builder().nutrition(4).saturationModifier(1.5F).build();
+    public static final FoodProperties FRUITS = new FoodProperties.Builder().nutrition(3).saturationModifier(1.5F).build();
 
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "sweethome:block/cream_applejam",
+    "particle": "sweethome:block/cream_applejam"
+  }
+}
